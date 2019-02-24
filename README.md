@@ -17,6 +17,11 @@ cd MISP-Taxii-Server
 pip3 install -r REQUIREMENTS.txt
 ```
 
+If the mysql_config is not in your path, it will be the case when you compile by yourself the mysql suite. Run this ( For recent versions of debian/ubuntu)
+```
+sudo apt install default-libmysqlclient-dev
+```
+
 You'll then need to set up your TAXII database. As you're using MISP, you'll likely
 already have a MySQL environment running. 
 
