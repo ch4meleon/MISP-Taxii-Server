@@ -22,6 +22,11 @@ If the mysql_config is not in your path, it will be the case when you compile by
 sudo apt install default-libmysqlclient-dev
 ```
 
+To reset MySQL root:
+```
+https://help.ubuntu.com/community/MysqlPasswordReset
+```
+
 You'll then need to set up your TAXII database. As you're using MISP, you'll likely
 already have a MySQL environment running. 
 
